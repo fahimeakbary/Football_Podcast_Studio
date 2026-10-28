@@ -1,0 +1,5 @@
+streamlit>=1.40,<2
+faster-whisper>=1.1,<2
+av>=11,<19
+argostranslate>=1.9,<2
+imageio-ffmpeg>=0.6,<1
