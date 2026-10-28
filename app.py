@@ -28,7 +28,7 @@ st.markdown('<div class="hero"><h1>🏈 Football Podcast Studio</h1><p>Upload a 
 st.info("Create a video from your audio and a background image. You can add German subtitles later by enabling the optional subtitle setting.")
 
 audio = st.file_uploader("1 · Upload the podcast audio", type=["mp3", "wav", "m4a", "aac", "flac", "ogg"])
-bg_path = Path(__file__).parent / "background.jpeg"
+bg_path = Path(__file__).parent / "background.png"
 use_default_bg = st.checkbox("Use the included football background image", value=True)
 image = None if use_default_bg else st.file_uploader("2 · Upload a background image", type=["png", "jpg", "jpeg", "webp"])
 add_subtitles = st.checkbox("Add German subtitles (automatic or from an .srt file)", value=False)
